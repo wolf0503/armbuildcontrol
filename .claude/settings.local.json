@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:www.gargasllc.com)",
+      "Bash(cp \"C:/Users/User/OneDrive/Рабочий стол/photo_5314671362360155513_y.jpg\" \"C:/projects/ArmBuildControl/public/images/project-arabkir-1.jpg\")",
+      "Bash(cp \"C:/Users/User/OneDrive/Рабочий стол/photo_5314671362360155512_y.jpg\" \"C:/projects/ArmBuildControl/public/images/project-arabkir-2.jpg\")"
+    ]
+  }
+}
