@@ -40,10 +40,10 @@ export function About() {
               />
             </div>
             {/* Floating stat card */}
-            <div className="absolute bottom-4 right-4 md:bottom-8 md:-right-8 bg-card border border-border rounded-lg p-6 shadow-xl">
+            {/* <div className="absolute bottom-4 right-4 md:bottom-8 md:-right-8 bg-card border border-border rounded-lg p-6 shadow-xl">
               <div className="text-4xl md:text-5xl font-bold text-primary">10+</div>
               <div className="text-sm text-muted-foreground mt-1">{t.stats.experience}</div>
-            </div>
+            </div> */}
             {/* Decorative element */}
             <div className="absolute -top-4 -left-4 w-24 h-24 border-2 border-primary/20 rounded-lg -z-10" />
           </div>
