@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Phone, Mail, MapPin } from "lucide-react"
+import { Phone, Mail } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
 export function Footer() {
@@ -93,17 +93,6 @@ export function Footer() {
                 >
                   <Mail className="h-4 w-4 text-primary" />
                   ha1995yk@mail.ru
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://maps.app.goo.gl/3iQyWC1wtJpdhb5c6"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-start gap-3 text-muted-foreground hover:text-foreground transition-colors text-sm"
-                >
-                  <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                  {t.contact.addressValue}
                 </a>
               </li>
             </ul>

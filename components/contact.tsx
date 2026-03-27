@@ -138,24 +138,6 @@ export function Contact() {
               ))}
             </div>
 
-            {/* Map */}
-            <div className="bg-card border border-border rounded-lg overflow-hidden">
-              <div className="p-4 border-b border-border">
-                <h3 className="font-semibold">{t.contact.findUs}</h3>
-              </div>
-              <div className="aspect-[4/3]">
-                <iframe
-                  src="https://maps.google.com/maps?q=Gyulikevkhyan+Street+10,+Yerevan,+Armenia&z=16&output=embed"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="HN Control Location"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </div>

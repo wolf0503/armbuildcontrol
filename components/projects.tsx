@@ -101,7 +101,7 @@ export function Projects() {
 
             {/* Card content */}
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-3">{t.projects.project1Title}</h3>
+              {t.projects.project1Title && <h3 className="text-xl font-semibold mb-3">{t.projects.project1Title}</h3>}
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {t.projects.project1Desc}
               </p>
